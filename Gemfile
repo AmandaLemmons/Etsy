@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 gem 'dotenv-rails'
 gem "http"
 gem 'bootstrap-sass'
-gem 'bootstrap'
 gem 'rails_12factor'
 ruby '2.2.2'
 
