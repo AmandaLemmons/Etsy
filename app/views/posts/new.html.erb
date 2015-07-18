@@ -1,6 +1,3 @@
-<div class="jumbotron">
-  <h1>Let's check out Etsy </h1>
-</div>
 
 <% @posts.in_groups_of(3, false) do |posts| %>
   <div class="row">
@@ -8,8 +5,8 @@
         <div class="col-md-4">
          <div class="thumbnail">
           <%= image_tag post["MainImage"]["url_170x135"] %>
-          <h5> <%= post["title"].truncate(50) %> </h5>
-          <p> Price: <%= post["price"] %> </p>
+          <h5> <%= post["title"].truncate(28) %> </h5>
+          <p> Price: $<%= post["price"] %> </p>
           <%= link_to "Find it here", post["url"]  %>
         </div>
       </div>

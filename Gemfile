@@ -5,6 +5,9 @@ gem 'dotenv-rails'
 gem "http"
 gem 'bootstrap-sass'
 gem 'bootstrap'
+gem 'rails_12factor'
+ruby '2.2.2'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'

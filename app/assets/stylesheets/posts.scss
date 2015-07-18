@@ -4,10 +4,29 @@
  .jumbotron {
    text-align: center;
    background: #1ABC9C;
-   color: #ECF0F1;
+   color: #f6f6f6;
+   font-family: 'Shadows Into Light Two', cursive;
  }
 
 .thumbnail {
-    border: 2px solid #9395C0;
+    border: 5px solid #1ABC9C;
     text-aligh: center;
+    padding: 20px;
   }
+
+ body {
+   background-color: #f6f6f6;
+   font-family: 'Roboto', sans-serif;
+   h5 {
+     color: #ff606e;
+     font-size: 24px;
+   }
+   p {
+     color: #517398;
+     font-size: 18px;
+   }
+   a {
+     color: #517398;
+     font-size: 14px;
+   }
+}
