@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-
+ruby '2.2.2'
 gem 'dotenv-rails'
 gem "http"
 gem 'bootstrap-sass'
 gem 'rails_12factor'
-ruby '2.2.2'
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
